@@ -43,12 +43,15 @@ CREATE TABLE IF NOT EXISTS SalesInformation (
 
 
 INSERT INTO Customers (Name, Address, Phone) VALUES
-    ('John Doe', '123 Main St, City', '123-456-7890'),
-    ('Jane Smith', '456 Oak Ave, Town', '098-765-4321');
+    ('Arvey Pelayo', 'Angeles City, Pampanga', '123-456-7890'),
+    ('David Faith', 'Magalang, Pampanga', '098-765-4321');
+    ('Rodmar Gueco Abayon', 'San Fernando, Pampanga', '058-735-5421');
 
 INSERT INTO Employees (Name, Position) VALUES
-    ('Mike Johnson', 'Veterinarian'),
-    ('Sarah Wilson', 'Sales Associate');
+    ('Christian Uanan', 'Veterinarian'),
+    ('Jeanne Bennedict Soriano', 'Sales Associate');
+    ('Daniel Garcia', 'Sales Associate');
+    ('Jerico Sison', 'Sales Associate');
 
 INSERT INTO Animals (Name, Category, Breed, DoB, Gender, Registration, Color, ListPrice, SalePrice) VALUES
     ('Max', 'Dog', 'Golden Retriever', '2022-01-15', 'Male', 'AKC123456', 'Golden', 1500.00, NULL),
